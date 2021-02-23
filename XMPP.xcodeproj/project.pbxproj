@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90FB9DBC2451F3D8009C6E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DBB2451F3D8009C6E95 /* AppDelegate.m */; };
+		90FB9DBF2451F3D8009C6E95 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DBE2451F3D8009C6E95 /* SceneDelegate.m */; };
+		90FB9DC22451F3D8009C6E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DC12451F3D8009C6E95 /* ViewController.m */; };
+		90FB9DC52451F3D8009C6E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FB9DC32451F3D8009C6E95 /* Main.storyboard */; };
+		90FB9DC72451F3DB009C6E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FB9DC62451F3DB009C6E95 /* Assets.xcassets */; };
+		90FB9DCA2451F3DB009C6E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FB9DC82451F3DB009C6E95 /* LaunchScreen.storyboard */; };
+		90FB9DCD2451F3DB009C6E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DCC2451F3DB009C6E95 /* main.m */; };
+		90FB9DD52453DDF5009C6E95 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DD42453DDF5009C6E95 /* RegisterViewController.m */; };
+		90FB9DD9245419AD009C6E95 /* XMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB9DD8245419AD009C6E95 /* XMPPTool.m */; };
+		FA06B9A8B48D2D3365473A9E /* Pods_XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4CF15E4A07425324698307 /* Pods_XMPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5485F81F23D16604E111A774 /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
+		6A4CF15E4A07425324698307 /* Pods_XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FB9DB72451F3D8009C6E95 /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FB9DBA2451F3D8009C6E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90FB9DBB2451F3D8009C6E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90FB9DBD2451F3D8009C6E95 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		90FB9DBE2451F3D8009C6E95 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		90FB9DC02451F3D8009C6E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90FB9DC12451F3D8009C6E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90FB9DC42451F3D8009C6E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90FB9DC62451F3DB009C6E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90FB9DC92451F3DB009C6E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90FB9DCB2451F3DB009C6E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FB9DCC2451F3DB009C6E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90FB9DD32453DDF5009C6E95 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		90FB9DD42453DDF5009C6E95 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		90FB9DD7245419AD009C6E95 /* XMPPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPTool.h; sourceTree = "<group>"; };
+		90FB9DD8245419AD009C6E95 /* XMPPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPTool.m; sourceTree = "<group>"; };
+		BA258907D13D204CB70A5CA9 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90FB9DB42451F3D8009C6E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA06B9A8B48D2D3365473A9E /* Pods_XMPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DD8E4CAD3850CACF7AC304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A4CF15E4A07425324698307 /* Pods_XMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90FB9DAE2451F3D8009C6E95 = {
+			isa = PBXGroup;
+			children = (
+				90FB9DB92451F3D8009C6E95 /* XMPP */,
+				90FB9DB82451F3D8009C6E95 /* Products */,
+				F15661923147B6629E54E9A3 /* Pods */,
+				66DD8E4CAD3850CACF7AC304 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90FB9DB82451F3D8009C6E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90FB9DB72451F3D8009C6E95 /* XMPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90FB9DB92451F3D8009C6E95 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				90FB9DD62453F3C2009C6E95 /* system */,
+				90FB9DBA2451F3D8009C6E95 /* AppDelegate.h */,
+				90FB9DBB2451F3D8009C6E95 /* AppDelegate.m */,
+				90FB9DD7245419AD009C6E95 /* XMPPTool.h */,
+				90FB9DD8245419AD009C6E95 /* XMPPTool.m */,
+				90FB9DBD2451F3D8009C6E95 /* SceneDelegate.h */,
+				90FB9DBE2451F3D8009C6E95 /* SceneDelegate.m */,
+				90FB9DC02451F3D8009C6E95 /* ViewController.h */,
+				90FB9DC12451F3D8009C6E95 /* ViewController.m */,
+				90FB9DCB2451F3DB009C6E95 /* Info.plist */,
+				90FB9DCC2451F3DB009C6E95 /* main.m */,
+				90FB9DD32453DDF5009C6E95 /* RegisterViewController.h */,
+				90FB9DD42453DDF5009C6E95 /* RegisterViewController.m */,
+				90FB9DC32451F3D8009C6E95 /* Main.storyboard */,
+			);
+			path = XMPP;
+			sourceTree = "<group>";
+		};
+		90FB9DD62453F3C2009C6E95 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				90FB9DC62451F3DB009C6E95 /* Assets.xcassets */,
+				90FB9DC82451F3DB009C6E95 /* LaunchScreen.storyboard */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		F15661923147B6629E54E9A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA258907D13D204CB70A5CA9 /* Pods-XMPP.debug.xcconfig */,
+				5485F81F23D16604E111A774 /* Pods-XMPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90FB9DB62451F3D8009C6E95 /* XMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90FB9DD02451F3DB009C6E95 /* Build configuration list for PBXNativeTarget "XMPP" */;
+			buildPhases = (
+				777A5820ED76B1A0063CBA75 /* [CP] Check Pods Manifest.lock */,
+				90FB9DB32451F3D8009C6E95 /* Sources */,
+				90FB9DB42451F3D8009C6E95 /* Frameworks */,
+				90FB9DB52451F3D8009C6E95 /* Resources */,
+				2C25025CC7A92BCFE5ACFC8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPP;
+			productName = XMPP;
+			productReference = 90FB9DB72451F3D8009C6E95 /* XMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90FB9DAF2451F3D8009C6E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = xKing;
+				TargetAttributes = {
+					90FB9DB62451F3D8009C6E95 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 90FB9DB22451F3D8009C6E95 /* Build configuration list for PBXProject "XMPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90FB9DAE2451F3D8009C6E95;
+			productRefGroup = 90FB9DB82451F3D8009C6E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90FB9DB62451F3D8009C6E95 /* XMPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90FB9DB52451F3D8009C6E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FB9DCA2451F3DB009C6E95 /* LaunchScreen.storyboard in Resources */,
+				90FB9DC72451F3DB009C6E95 /* Assets.xcassets in Resources */,
+				90FB9DC52451F3D8009C6E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C25025CC7A92BCFE5ACFC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777A5820ED76B1A0063CBA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90FB9DB32451F3D8009C6E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FB9DD52453DDF5009C6E95 /* RegisterViewController.m in Sources */,
+				90FB9DC22451F3D8009C6E95 /* ViewController.m in Sources */,
+				90FB9DBC2451F3D8009C6E95 /* AppDelegate.m in Sources */,
+				90FB9DCD2451F3DB009C6E95 /* main.m in Sources */,
+				90FB9DD9245419AD009C6E95 /* XMPPTool.m in Sources */,
+				90FB9DBF2451F3D8009C6E95 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90FB9DC32451F3D8009C6E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90FB9DC42451F3D8009C6E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90FB9DC82451F3DB009C6E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90FB9DC92451F3DB009C6E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90FB9DCE2451F3DB009C6E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90FB9DCF2451F3DB009C6E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90FB9DD12451F3DB009C6E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA258907D13D204CB70A5CA9 /* Pods-XMPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR675MMZ59;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xKing.com.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90FB9DD22451F3DB009C6E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5485F81F23D16604E111A774 /* Pods-XMPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR675MMZ59;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xKing.com.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90FB9DB22451F3D8009C6E95 /* Build configuration list for PBXProject "XMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FB9DCE2451F3DB009C6E95 /* Debug */,
+				90FB9DCF2451F3DB009C6E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90FB9DD02451F3DB009C6E95 /* Build configuration list for PBXNativeTarget "XMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FB9DD12451F3DB009C6E95 /* Debug */,
+				90FB9DD22451F3DB009C6E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90FB9DAF2451F3D8009C6E95 /* Project object */;
+}
